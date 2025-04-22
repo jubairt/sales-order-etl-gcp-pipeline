@@ -19,7 +19,7 @@ This project demonstrates a fully automated **ETL pipeline** that ingests, proce
 
 ## 🧱 Architecture
 
-![Architecture](Architecture.png)
+![Architecture](https://github.com/jubairt/sales-order-etl-gcp-pipeline/blob/main/architecture.png)
 
 ---
 
@@ -27,7 +27,7 @@ This project demonstrates a fully automated **ETL pipeline** that ingests, proce
 
 The pipeline is managed by **Cloud Composer**, which runs a DAG to automate all tasks—from data creation to transformation and loading into BigQuery.
 
-![DAG Pipeline](Dag_pipeline.png)
+![DAG Pipeline](https://github.com/jubairt/sales-order-etl-gcp-pipeline/blob/main/Airflow_dagflow.png)
 
 ---
 
@@ -59,7 +59,7 @@ The pipeline is managed by **Cloud Composer**, which runs a DAG to automate all 
 - Sales trends, top products/customers, and categorized orders are visualized through Looker Studio.
 - Data source: BigQuery
 
-![Dashboard](Looker_studio.png)
+![Dashboard](https://github.com/jubairt/sales-order-etl-gcp-pipeline/blob/main/Lookerstudio_Dashboard.png)
 
 ---
 
