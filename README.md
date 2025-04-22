@@ -65,15 +65,18 @@ The pipeline is managed by **Cloud Composer**, which runs a DAG to automate all 
 
 ## 📂 Repository Contents
 
-| File | Description |
-|------|-------------|
-| `generate_sales_data.py` | Python script to create and upload sales data |
-| `sales_orders_to_bigquery_with_transformation.py` | Cloud Composer DAG script |
-| `Dag_pipeline.png` | DAG visual representation |
-| `Architecture.png` | Architecture diagram |
-| `Looker_studio.png` | Final dashboard screenshot |
-| `sales_data.csv` | Sample sales data |
-| `desktop.ini` | System file (can be ignored or removed) |
+| File / Folder | Description |
+|---------------|-------------|
+| `dag.py` | Airflow DAG that triggers data generation and transformation |
+| `extract.py` | Python script to generate fake sales data and upload it to GCS |
+| `architecture.png` | Architecture diagram showcasing the full pipeline |
+| `Airflow_dagflow.png` | Visual representation of the Airflow DAG in Composer |
+| `Lookerstudio_Dashboard.png` | Screenshot of the final dashboard in Looker Studio |
+| `desktop.ini` | System-generated file (can be ignored or deleted) |
+| `Tables/` | Folder containing table structure visuals used in the ETL process |
+| └── `sales_orders_table.png` | Raw sales orders table structure |
+| └── `transformed_sales_orders_table.png` | Table after transformation (with categorized amounts) |
+| └── `large_orders_table.png` | Filtered table showing large orders (amount ≥ 500) |
 
 ---
 
