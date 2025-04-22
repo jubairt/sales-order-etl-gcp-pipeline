@@ -68,7 +68,6 @@ The pipeline is managed by **Cloud Composer**, which runs a DAG to automate all 
 | File / Folder | Description |
 |---------------|-------------|
 | `dag.py` | Airflow DAG that triggers data generation and transformation |
-| `extract.py` | Python script to generate fake sales data and upload it to GCS |
 | `architecture.png` | Architecture diagram showcasing the full pipeline |
 | `Airflow_dagflow.png` | Visual representation of the Airflow DAG in Composer |
 | `Lookerstudio_Dashboard.png` | Screenshot of the final dashboard in Looker Studio |
