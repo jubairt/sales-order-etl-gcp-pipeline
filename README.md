@@ -1,6 +1,6 @@
 # 🧾 Sales Orders Data Pipeline using Cloud Composer & Looker Studio (GCP)
 
-This project demonstrates a fully automated **ETL pipeline** that ingests, processes, and visualizes sales order data. The solution uses **Apache Airflow (Cloud Composer)**, **Google Cloud Storage**, **BigQuery**, and **Looker Studio**, with data generation powered by **Python (Faker)**.
+This project demonstrates a fully automated **ELT pipeline** that ingests, processes, and visualizes sales order data. The solution uses **Apache Airflow (Cloud Composer)**, **Google Cloud Storage**, **BigQuery**, and **Looker Studio**, with data generation powered by **Python (Faker)**.
 
 ---
 
@@ -10,7 +10,7 @@ This project demonstrates a fully automated **ETL pipeline** that ingests, proce
 
 **Technologies Used:**
 - 🐍 Python (Fake Sales Data Generation)
-- ☁️ Cloud Composer (ETL Workflow Automation)
+- ☁️ Cloud Composer (ELT Workflow Automation)
 - 🗃 Google Cloud Storage (Raw File Storage)
 - 🔎 BigQuery (SQL-based Data Warehousing)
 - 📈 Looker Studio (Sales Insights Dashboard)
@@ -81,6 +81,6 @@ The pipeline is managed by **Cloud Composer**, which runs a DAG to automate all 
 
 ## ✅ Conclusion
 
-This pipeline showcases how to implement an end-to-end **ETL workflow** using **Google Cloud services**. It simulates real-world sales data, categorizes it efficiently, and presents insights in a business-ready dashboard.
+This pipeline showcases how to implement an end-to-end **ELT workflow** using **Google Cloud services**. It simulates real-world sales data, categorizes it efficiently, and presents insights in a business-ready dashboard.
 
-Whether you’re experimenting with cloud ETL tools or building production-grade analytics systems, this project highlights **best practices in data engineering** using GCP.
+Whether you’re experimenting with cloud ELT tools or building production-grade analytics systems, this project highlights **best practices in data engineering** using GCP.
